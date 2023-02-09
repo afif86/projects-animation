@@ -1,0 +1,57 @@
+
+body{
+  color: #000;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: white;
+  font-family: Helvetica, sans-serif;
+}
+.cursor {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 111;
+    border: 1px solid #8b8b8b;
+    transition: all 0.3s ease-out;
+    animation: moveCursor1 .5s ;
+}
+
+.expand {
+    background: transparent;
+    animation: moveCursor2 .5s forwards;
+    border: 1px solid #8b8b8b;
+    transition: all 0.5s ease-out;
+    
+}
+
+
+
+@keyframes moveCursor2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(4);
+        opacity: 0.6;
+    }
+}
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(4);
+        background: transparent;
+    }
+
+    to {
+        transform: scale(1);  
+
+    }
+}
