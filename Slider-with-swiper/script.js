@@ -10,10 +10,13 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: {
     invert: false,
+    releaseOnEdges: true,
   },
+
   keyboard: {
     enabled: true,
     onlyInViewport: false,
+    pageUpDown: true,
   },
 
   pagination: {
