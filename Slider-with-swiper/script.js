@@ -3,17 +3,6 @@ const swiper = new Swiper('.swiper-container', {
   slidePerView: "auto",
   effect: 'fade',
 
-  // different type of effect for swiping:
-  // effect: 'Coverflow',
-  // coverflowEffect: {
-  //   rotate: 150,
-  //   slideShadows: false,
-  //   depth: 100,
-  // },
-  // effect: 'Creative',
-  // effect: 'cube',
-  // effect: 'flip',
- 
 
   scrollbar: {
     el: '.swiper-scrollbar',
@@ -40,6 +29,10 @@ const swiper = new Swiper('.swiper-container', {
 
   on: {
     keyPress: function (e) {
+      console.log(e, 'khodesh');
+      // if there is other slides
+      // if there is a link
+      // if the button is tab
       this.slideNext()
     },
   }
