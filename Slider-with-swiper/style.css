@@ -32,8 +32,7 @@
 .swiper-container .swiper-slide {
   height: 100%;
   width: auto;
-  display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   font-size: 40px;
   font-family: Sans-serif;
@@ -56,10 +55,288 @@
 .swiper-pagination {
   top: 40%;
   direction: rtl;
+}
+
+.swiper-container .swiper-slide:nth-child(1) {
+  background-image: url(./media/1.png);
+
+}
+.swiper-container .swiper-slide:nth-child(2) {
+  background-image: url(./media/2.png);
+}
+.swiper-container .swiper-slide:nth-child(3) {
+  background-image: url(./media/3.png);
+}
+.swiper-container .swiper-slide:nth-child(4) {
+  background-image: url(./media/4.png);
+}
+
+.slider-container {
+  padding: 200px 600px 100px;
+  text-align: center;
+  
+}
+
+.stage {
+  height: inherit;
+  background-color: #0b818abd; 
+}
+
+.slider-sub-title {
+  font-size: 21px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  position: relative;
+  animation: moveDown ease 1s; 
+  top: 20px;
+}
+
+@keyframes moveDown{
+  from {
+    top: 0;
+  }
+  to{
+
+    top: 20px;
+  }
+}
+
+.slider-title {
+  font-size: 52px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: #ffffff;
+  padding: 0px;
+  opacity: 1;
+  position: relative;
+  animation: scale-change 2s forwards;
+}
+
+@keyframes scale-change{
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 50px auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em;  */
+  animation: letter-glow 5s 0s ease both;
+  font-size: 18px;
+  transition: ease-in opacity 200ms;
+}
+
+.typewriter span {
+  font-size: 18px;
+  opacity: 0;
+}
+
+span:nth-child(1) {
+  animation: letter-glow 0.05s forwards 0s;
+  animation-delay: 2.1s;
+}
+
+span:nth-child(2) {
+  animation: letter-glow .1s forwards 0.5s;
+  animation-delay: 2.15s;
+}
+
+span:nth-child(3) {
+  animation: letter-glow .15s forwards 1s;
+  animation-delay: 2.2s;
+}
+
+span:nth-child(4) {
+  animation: letter-glow .2s forwards 1.5s;
+  animation-delay: 2.25s;
+}
+span:nth-child(5) {
+  animation: letter-glow .25s forwards 2s;
+  animation-delay: 2.30s;
+}
+span:nth-child(6) {
+  animation: letter-glow .30s forwards 2.5s;
+  animation-delay: 2.35s;
+}
+span:nth-child(7) {
+  animation: letter-glow .35s forwards 3s;
+  animation-delay: 2.40s;
+}
+span:nth-child(8) {
+  animation: letter-glow .40s forwards 3.5s;
+  animation-delay: 2.45s;
+}
+span:nth-child(9) {
+  animation: letter-glow .45s forwards 4s;
+  animation-delay: 2.50s;
+}
+span:nth-child(10) {
+  animation: letter-glow .50s forwards 4.5s;
+  animation-delay: 2.55s;
+}
+span:nth-child(11) {
+  animation: letter-glow .55s forwards 5s;
+  animation-delay: 2.60s;
+}
+span:nth-child(12) {
+  animation: letter-glow .60s forwards 1.5s;
+  animation-delay: 2.65s;
+}
+span:nth-child(13) {
+  animation: letter-glow .65s forwards 5.5s;
+  animation-delay: 2.70s;
+}
+span:nth-child(14) {
+  animation: letter-glow .7s forwards 6s;
+  animation-delay: 2.75s;
+}
+span:nth-child(15) {
+  animation: letter-glow .75s forwards 6.5s;
+  animation-delay: 2.80s;
+}
+span:nth-child(16) {
+  animation: letter-glow 0.80s forwards 7s;
+  animation-delay: 2.9s;
+}
+
+span:nth-child(17) {
+  animation: letter-glow .85s forwards 7.5s;
+  animation-delay: 3s;
+}
+
+span:nth-child(18) {
+  animation: letter-glow .9s forwards 8s;
+  animation-delay: 3.05s;
+}
+
+span:nth-child(19) {
+  animation: letter-glow .95s forwards 8.5s;
+  animation-delay: 3.10s;
+}
+span:nth-child(20) {
+  animation: letter-glow 1s forwards 9s;
+  animation-delay: 3.15s;
+}
+span:nth-child(21) {
+  animation: letter-glow 1.05s forwards 9.5s;
+  animation-delay: 3.20s;
+}
+span:nth-child(22) {
+  animation: letter-glow 1.1s forwards 10s;
+  animation-delay: 3.25s;
+}
+span:nth-child(23) {
+  animation: letter-glow 1.15s forwards 10.5s;
+  animation-delay: 3.30s;
+}
+span:nth-child(24) {
+  animation: letter-glow 1.20s forwards 11s;
+  animation-delay: 3.35s;
+}
+span:nth-child(25) {
+  animation: letter-glow 1.25s forwards 11.5s;
+  animation-delay: 3.40s;
+}
+span:nth-child(26) {
+  animation: letter-glow 1.30s forwards 12s;
+  animation-delay: 3.45s;
+}
+span:nth-child(27) {
+  animation: letter-glow 1.35s forwards 12.5s;
+  animation-delay: 3.50s;
+}
+span:nth-child(28) {
+  animation: letter-glow 1.40s forwards 13s;
+  animation-delay: 3.55s;
+}
+span:nth-child(29) {
+  animation: letter-glow 1.45s forwards 13.5s;
+  animation-delay: 3.40s;
+}
+span:nth-child(30) {
+  animation: letter-glow 1.50s forwards 14s;
+  animation-delay: 3.45s;
+}
+span:nth-child(31) {
+  animation: letter-glow 1.55s forwards 14.5s;
+  animation-delay: 3.50s;
+}
 
 
+@keyframes letter-glow {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
+  }
+  66% {
+    opacity: 1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+  }
+  77% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
+  }
 }
 
 
 
 
+.slider-button {
+  font-weight: 400;
+  border-radius: 7px;
+  border: solid 1px #212529;
+  padding: 12px 25px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  animation: moveUp ease-in 5s; 
+  top: 20px;
+  background-color: #212529;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@keyframes moveUp{
+  0%{
+    opacity: 0;
+    top: 50px;
+
+  }
+  70%{
+    opacity: 0;
+  top: 50px;
+
+  }  
+  80%{
+    opacity: 1;
+  top: 20px;
+
+  }
+
+  100%{
+    opacity: 1;
+    top: 20;
+
+
+  }
+}

@@ -3,6 +3,18 @@ const swiper = new Swiper('.swiper-container', {
   slidePerView: "auto",
   effect: 'fade',
 
+  // different type of effect for swiping:
+  // effect: 'Coverflow',
+  // coverflowEffect: {
+  //   rotate: 150,
+  //   slideShadows: false,
+  //   depth: 100,
+  // },
+  // effect: 'Creative',
+  // effect: 'cube',
+  // effect: 'flip',
+ 
+
   scrollbar: {
     el: '.swiper-scrollbar',
     draggable: true,
@@ -26,7 +38,18 @@ const swiper = new Swiper('.swiper-container', {
     bulletClass: 'swiper-pagination-bullet',
   },
 
+  on: {
+    keyPress: function (e) {
+      this.slideNext()
+    },
+  }
+
 });
+
+
+
+  
+
 
 
 
