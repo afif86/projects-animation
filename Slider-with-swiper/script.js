@@ -2,6 +2,16 @@ const swiper = new Swiper('.swiper-container', {
   slideToClickedSlide: true,
   slidePerView: "auto",
   effect: 'fade',
+    // different type of effect for swiping:
+  // effect: 'Coverflow',
+  // coverflowEffect: {
+  //   rotate: 150,
+  //   slideShadows: false,
+  //   depth: 100,
+  // },
+  // effect: 'Creative',
+  // effect: 'cube',
+  // effect: 'flip',
 
 
   scrollbar: {
@@ -11,7 +21,7 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: {
     invert: false,
-    releaseOnEdges: true,
+    releaseOnEdges: true, // to release the mouse and Continue when it showed all the sliders . 
   },
 
   keyboard: {
@@ -29,12 +39,20 @@ const swiper = new Swiper('.swiper-container', {
 
   on: {
     keyPress: function (e) {
-      console.log(e, 'khodesh');
-      // if there is other slides
-      // if there is a link
-      // if the button is tab
-      this.slideNext()
+      // keyboard navigation
+      console.log(e, e.slides.length);
+      e.slides.length
+
+      console.log(e.realIndex)
+      if(e.realIndex < e.slides.length ) {
+        e.slides.forEach((slide, index) => {
+          if (slide.dataset.link) { 
+            this.slideTo(index+1)
+          }
+          });
+      }
     },
+
   }
 
 });

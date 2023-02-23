@@ -1,3 +1,4 @@
+
 .wrapper {
   height: 90%;
   width: 100%;
@@ -5,6 +6,7 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  z-index: -999;
 } 
 
 .swiper-container {
@@ -13,6 +15,7 @@
   display: flex;
   position: relative; 
 }
+
 .swiper-container .swiper-scrollbar {
   position: absolute;
   bottom: 0;
@@ -20,27 +23,18 @@
   height: 10px;
   background: rgba(0, 0, 0, 0.1);
 }
-.swiper-container .swiper-scrollbar .swiper-scrollbar-drag {
-  height: 100%;
-  transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
-  background: rgba(0, 0, 0, 0.4);
-}
-.swiper-container .swiper-wrapper {
-  display: flex;
-  transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
-}
+
+
 .swiper-container .swiper-slide {
   height: 100%;
   width: auto;
-  /* justify-content: center; */
   align-items: center;
   font-size: 40px;
   font-family: Sans-serif;
-  text-shadow: 1px 2px 2px rgba(223, 221, 221, 0.9);
   color: #fff; 
 }
 
-
+/* positioning and reshaping the pagination bullets */
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
@@ -57,6 +51,7 @@
   direction: rtl;
 }
 
+/* slider pics */
 .swiper-container .swiper-slide:nth-child(1) {
   background-image: url(./media/1.png);
 
@@ -77,6 +72,7 @@
   
 }
 
+/* it will add greenish cover on photos */
 .stage {
   height: inherit;
   background-color: #0b818abd; 
@@ -95,6 +91,7 @@
   top: 20px;
 }
 
+/* animation for sub-title moving down */
 @keyframes moveDown{
   from {
     top: 0;
@@ -118,6 +115,7 @@
   animation: scale-change 2s forwards;
 }
 
+/* animation for title, scaling it from bigger to normal size */
 @keyframes scale-change{
   0% {
     transform: scale(1.2);
@@ -134,10 +132,9 @@
 }
 
 .typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden; 
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 50px auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em;  */
+  margin: 50px auto; 
   animation: letter-glow 5s 0s ease both;
   font-size: 18px;
   transition: ease-in opacity 200ms;
@@ -148,6 +145,7 @@
   opacity: 0;
 }
 
+/* to have growing animation for characters one by one we need to animate them one by one */
 span:nth-child(1) {
   animation: letter-glow 0.05s forwards 0s;
   animation-delay: 2.1s;
@@ -279,7 +277,7 @@ span:nth-child(31) {
   animation-delay: 3.50s;
 }
 
-
+/* p text animation, letter-glowing */
 @keyframes letter-glow {
   0% {
     opacity: 0;
@@ -299,8 +297,6 @@ span:nth-child(31) {
 }
 
 
-
-
 .slider-button {
   font-weight: 400;
   border-radius: 7px;
@@ -316,6 +312,7 @@ span:nth-child(31) {
   position: relative;
 }
 
+/* button animation  moving-up and fad-in */
 @keyframes moveUp{
   0%{
     opacity: 0;
@@ -336,7 +333,5 @@ span:nth-child(31) {
   100%{
     opacity: 1;
     top: 20;
-
-
   }
 }
