@@ -37,8 +37,6 @@ const swiper = new Swiper('.swiper-container', {
     bulletElement: 'span',
     bulletClass: 'swiper-pagination-bullet',
     clickable: true,
-    draggable: true,
-    clickableClass: 	'swiper-pagination-clickable',
   },
 
   on: {
