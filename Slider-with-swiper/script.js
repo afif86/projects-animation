@@ -21,7 +21,8 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: {
     invert: false,
-    releaseOnEdges: true, // to release the mouse and Continue when it showed all the sliders . 
+    releaseOnEdges: true,
+    // to release the mouse and Continue when it showed all the sliders .
   },
 
   keyboard: {
