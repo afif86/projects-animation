@@ -40,23 +40,30 @@ const swiper = new Swiper('.swiper-container', {
 
   on: {
     keyPress: function (e) {
-      // keyboard navigation
-      console.log(e, e.slides.length);
-      e.slides.length
 
+    // to run just when it is active otherwise it will pass the navigation 
+      const elem = document.querySelector('.slider-button');
+      if (elem === document.activeElement) {
+        e.slides.length
+        
+// it will check if the other slides has button or not
       console.log(e.realIndex)
       if(e.realIndex < e.slides.length ) {
         e.slides.forEach((slide, index) => {
-          if (slide.dataset.link) { 
+          if (slide.dataset.link) {
             this.slideTo(index+1)
           }
           });
-      }
+       }
+
+      } 
     },
 
   }
 
 });
+
+
 
 
 
