@@ -36,22 +36,28 @@ const swiper = new Swiper('.swiper-container', {
     type: 'bullets',
     bulletElement: 'span',
     bulletClass: 'swiper-pagination-bullet',
+    clickable: true,
+    draggable: true,
+    clickableClass: 	'swiper-pagination-clickable',
   },
 
   on: {
     keyPress: function (e) {
-
+      
     // to run just when it is active otherwise it will pass the navigation 
-      const elem = document.querySelector('.slider-button');
+      const elem = document.querySelector('.checking');
+      console.log('it is focused')
       if (elem === document.activeElement) {
-        e.slides.length
         
 // it will check if the other slides has button or not
+        
       console.log(e.realIndex)
       if(e.realIndex < e.slides.length ) {
         e.slides.forEach((slide, index) => {
+          console.log(index)
           if (slide.dataset.link) {
-            this.slideTo(index+1)
+            console.log(slide.dataset.link)
+            this.slideTo(index)
           }
           });
        }
