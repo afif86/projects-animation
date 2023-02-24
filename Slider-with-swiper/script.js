@@ -42,27 +42,29 @@ const swiper = new Swiper('.swiper-container', {
   on: {
     keyPress: function (e) {
       
-    // to run just when it is active otherwise it will pass the navigation 
-      const elem = document.querySelector('.checking');
-      console.log('it is focused')
-      if (elem === document.activeElement) {
-        
-// it will check if the other slides has button or not
-        
-      console.log(e.realIndex)
-      if(e.realIndex < e.slides.length ) {
-        e.slides.forEach((slide, index) => {
-          console.log(index)
-          if (slide.dataset.link) {
-            console.log(slide.dataset.link)
-            this.slideTo(index)
+      // to run just when it is active otherwise it will pass the navigation 
+      const elems = Array.from(document.querySelectorAll('.checking'))
+      if (elems.indexOf(document.activeElement) > -1) {
+
+        // it will check if the other slides has button or not        
+        if (e.realIndex < e.slides.length) {
+          for (let i = e.realIndex; i < e.slides.length; i++){
+            if (i + 1 >= e.slides.length) {
+              break;
+            } else {
+                if (e.slides[i + 1].dataset.link) { 
+                  this.slideTo(i+1);
+                  return true;
+                }
+              }
+            
           }
-          });
-       }
+        }
 
-      } 
-    },
+       
+      }
 
+    }
   }
 
 });

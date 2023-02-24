@@ -39,6 +39,7 @@
   background-color: white !important;
 }
 
+
 .swiper-pagination-bullet {
   margin: 10px !important;
   height: 15px !important;
@@ -67,7 +68,7 @@
 }
 
 .slider-container {
-  padding: 200px 600px 100px;
+  padding: 20% 30% 10%;
   text-align: center;
   
 }
@@ -133,7 +134,8 @@
 
 .typewriter {
   overflow: hidden; 
-  white-space: nowrap; /* Keeps the content on a single line */
+  /* white-space: nowrap;  */
+  /* Keeps the content on a single line */
   margin: 50px auto; 
   animation: letter-glow 5s 0s ease both;
   font-size: 18px;
