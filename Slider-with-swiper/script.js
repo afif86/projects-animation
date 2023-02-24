@@ -3,6 +3,7 @@ const swiper = new Swiper('.swiper-container', {
   slidePerView: "auto",
   effect: 'fade',
     // different type of effect for swiping:
+  
   // effect: 'Coverflow',
   // coverflowEffect: {
   //   rotate: 150,
