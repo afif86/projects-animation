@@ -68,7 +68,7 @@
 }
 
 .slider-container {
-  padding: 20% 30% 10%;
+  padding: 10% 30% 10%;
   text-align: center;
   
 }
@@ -134,8 +134,6 @@
 
 .typewriter {
   overflow: hidden; 
-  /* white-space: nowrap;  */
-  /* Keeps the content on a single line */
   margin: 50px auto; 
   animation: letter-glow 5s 0s ease both;
   font-size: 18px;
