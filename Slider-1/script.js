@@ -17,6 +17,7 @@ const swiper = new Swiper('.swiper', {
     type: 'bullets',
     bulletElement: 'span',
     bulletClass: 'swiper-pagination-bullet',
+    clickable: true,
   },
 
   mousewheel: {
