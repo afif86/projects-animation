@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: right;
+}
+
+#shape_one_start {
+animation: shape1 9s ease-in-out infinite alternate;
+transform-origin: left;
+transform-box: fill-box;
+animation-delay: 1s;
+}
+
+
+
+@keyframes shape1 {
+    from{
+        transform: translateX(0);
+       top: 0;
+    }
+    to {
+        transform: translateX(350px);
+        top: 100px;
+    }
+} 
+
+#shape_one_end {
+    animation: shape12 7s ease-in-out infinite alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+
+
+    }
+    
+    @keyframes shape12 {
+        from{
+            transform: translateX(0);
+          
+        }
+        to {
+            transform: translateX(350px);
+
+        }
+    }
+
+
+#shape_two_start {
+    animation: shape2 8s ease-in-out infinite alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+
+@keyframes shape2 {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+
+#shape_two_end {
+    animation: shape22 6s ease-in-out infinite alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+    animation-delay: 1s;
+}
+
+@keyframes shape22 {
+    from{
+        transform: translateX(0);
+        top: 0;
+    }
+    to {
+        transform: translateX(300px);
+        top: 50px;
+    }
+} 
