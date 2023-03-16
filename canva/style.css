@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+overflow-x: hidden;
+}
+
+.hero-wave {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.wave2 {
+    position: absolute;
+    animation: moving2 ease-in-out 7s infinite alternate;
+    /* width: 100%; */
+    opacity: 0.6;
+    animation-delay: 1s;
+}
+  
+  
+  @keyframes moving2{
+    0%{
+      transform: translateY(50px);
+    }
+    
+    50%{
+      transform: translateY(0px);
+    }
+    
+    100%{
+      transform: translateY(50px);
+    }
+  }
+
+  .wave1 {
+    position: absolute;
+    animation: moving1 ease-in-out 10s infinite alternate;
+    /* width: 100%; */
+    /* opacity: 0.6; */
+
+}
+   
+  /* @keyframes moving1{
+    0%{
+      transform: translateY(50px);
+    }
+    
+    50%{
+        transform: translateY(0px);
+    }
+    
+    100%{
+        transform: translateY(50px);
+    }
+  } */
+
+  /* .wave3 {
+    position: absolute;
+    animation: moving3 ease-in-out 10s infinite alternate;
+    width: 100%;
+    opacity: 0.3;
+
+}
+  
+@keyframes moving3{
+    0%{
+      transform: translateY(0px) translateX(0px) ;
+    }
+    
+    50%{
+        transform: translateY(50px) translateX(50px);
+    }
+    
+    100%{
+        transform: translateY(0px) translateX(0px);
+    }
+  }  */
+
