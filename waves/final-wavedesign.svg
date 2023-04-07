@@ -11,47 +11,46 @@
         
         
         @keyframes moving2{
-            0%{
-            transform: translateY(50px);
+           0%{
+            transform: translateY(30px);
             }
             
             50%{
-            transform: translateY(0px);
+                transform: translateY(0px);
             }
             
             100%{
-            transform: translateY(50px);
+                transform: translateY(30px);
             }
         }
 
-        <!-- .wave1 {
+        .wave1 {
             position: absolute;
-            animation: moving1 ease-in-out 10s infinite alternate;
+            animation: moving1 ease-in-out 7s infinite alternate;
             width: 100%;
-        opacity: 0.6;
+            opacity: 1;
 
         }
         
         @keyframes moving1{
             0%{
-            transform: translateY(50px) rotateY(20deg);
+            transform: translateY(20px);
             }
             
             50%{
-                transform: translateY(0px) rotateY(0deg);
+                transform: translateY(0px);
             }
             
             100%{
-                transform: translateY(50px) rotateY(20deg);
+                transform: translateY(20px);
             }
-        } -->
+        }
 
         .wave3 {
             position: absolute;
             animation: moving3 ease-in-out 10s infinite alternate;
             width: 100%;
             opacity: 0.3;
-        /* animation-delay: 3s; */
 
         }
         
