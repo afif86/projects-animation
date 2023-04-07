@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Hover Effect with Particles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="container">
+      <h1 id="text">Hello, World!</h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+      let container, camera, scene, renderer, particleSystem;
+      let mouseX = 0, mouseY = 0;
+      const particles = [];
+      let particleGeometry;
+
+      // Initialize Three.js scene
+      function init() {
+        container = document.getElementById('container');
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+        camera.position.z = 1000;
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x000000);
+        const fontLoader = new THREE.FontLoader();
+        fontLoader.load('https://threejs.org/examples/fonts/helvetiker_bold.typeface.json', font => {
+          const textGeometry = new THREE.TextGeometry('Hello, World!', {
+            font: font,
+            size: 200,
+            height: 50,
+            curveSegments: 12,
+            bevelEnabled: true,
+            bevelThickness: 10,
+            bevelSize: 8,
+            bevelOffset: 0,
+            bevelSegments: 5
+          });
+          const textMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
+          const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+          textMesh.position.x = -380;
+          textMesh.position.y = -70;
+          textMesh.position.z = -100;
+          scene.add(textMesh);
+        });
+
+        // Create particle system
+        const particleCount = 5000;
+        particleGeometry = new THREE.BufferGeometry();
+        const particlePositions = new Float32Array(particleCount * 3);
+        const particleColors = new Float32Array(particleCount * 3);
+
+  for (let i = 0; i < particleCount; i++) {
+    const x = Math.random() * 2000 - 1000;
+    const y = Math.random() * 2000 - 1000;
+    const z = Math.random() * 2000 - 1000;
+    particlePositions[i * 3] = x;
+    particlePositions[i * 3 + 1] = y;
+    particlePositions[i * 3 + 2] = z;
+    particleColors[i * 3] = 1;
+    particleColors[i * 3 + 1] = 1;
+    particleColors[i * 3 + 2] = 1;
+  }
+  particleGeometry.setAttribute('position', new THREE.BufferAttribute(particlePositions, 3));
+  particleGeometry.setAttribute('color', new THREE.BufferAttribute(particleColors, 3));
+  const particleMaterial = new THREE.PointsMaterial({size: 2, vertexColors: true});
+  particleSystem = new THREE.Points(particleGeometry, particleMaterial);
+  scene.add(particleSystem);
+
+  // Initialize renderer
+  renderer = new THREE.WebGLRenderer({canvas: document.getElementById('canvas')});
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.domElement.style.position = 'absolute';
+  renderer.domElement.style.top = 0;
+  renderer.domElement.style.left = 0;
+  container.appendChild(renderer.domElement);
+
+  // Start animation loop
+  animate();
+}
+
+// Animate particle system
+function animateParticles() {
+  particles.forEach(particle => {
+    particle.x += (Math.random() - 0.5) * 2;
+    particle.y += (Math.random() - 0.5) * 2;
+    particle.z += (Math.random() - 0.5) * 2;
+    particle.lifetime += 1;
+    if (particle.lifetime > 1000) {
+      particle.x = Math.random() * 2000 - 1000;
+      particle.y = Math.random() * 2000 - 1000;
+      particle.z = Math.random() * 2000 - 1000;
+      particle.lifetime = 0;
+    }
+  });
+  particleGeometry.attributes.position.needsUpdate = true;
+  particleGeometry.attributes.color.needsUpdate = true;
+}
+
+// Render Three.js scene
+function render() {
+  camera.position.x += (mouseX - camera.position.x) * 0.05;
+  camera.position.y += (- mouseY - camera.position.y) * 0.05;
+  camera.lookAt(scene.position);
+  particleSystem.rotation.x += 0.01;
+  particleSystem.rotation.y += 0.01;
+  renderer.render(scene, camera);
+}
+
+// Start animation loop
+function animate() {
+  requestAnimationFrame(animate);
+  animateParticles();
+  render();
+}
+
+// Initialize Three.js scene when page loads
+window.onload = init;
+
+// Track mouse movement over text
+document.addEventListener('mousemove', event => {
+  mouseX = (event.clientX - window.innerWidth / 2) * 10;
+  mouseY = (event.clientY - window.innerHeight / 2) * 10;
+});
+    </script>
+  </body>
+</html>

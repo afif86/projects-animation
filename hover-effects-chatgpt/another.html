@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particle Text Hover Effect</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+      }
+      #container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #particle-text {
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        font-size: 44px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="particle-text">Corn. Revolutionized</div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        const container = document.getElementById('container');
+const particleText = document.getElementById('particle-text');
+const canvas = document.getElementById('canvas');
+
+// Set up Three.js scene
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+
+renderer.setSize(window.innerWidth, window.innerHeight);
+camera.position.z = 5;
+
+const particles = [];
+const particleCount = 100;
+
+const geometry = new THREE.SphereGeometry(0.1);
+const material = new THREE.MeshBasicMaterial({ color: 0x000000 });
+
+for (let i = 0; i < particleCount; i++) {
+  const particle = new THREE.Mesh(geometry, material);
+  particle.position.set(Math.random() * 5 - 2.5, Math.random() * 5 - 2.5, 0);
+  particle.visible = false;
+  particle.userData.velocity = new THREE.Vector3(Math.random() * 0.02 - 0.01, Math.random() * 0.02 - 0.01, 0);
+  particles.push(particle);
+  scene.add(particle);
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+  
+  particles.forEach((particle) => {
+    if (particle.visible) {
+      particle.position.add(particle.userData.velocity);
+    }
+  });
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+        container.addEventListener('mouseover', () => {
+            particleText.style.display = 'none';
+            particles.forEach((particle) => {
+            particle.visible = true;
+        });
+        });
+
+        container.addEventListener('mouseout', () => {
+            particleText.style.display = 'block';
+            particles.forEach((particle) => {
+                particle.visible = false;
+            });
+        });
+
+    </script>
+  </body>
+</html>
