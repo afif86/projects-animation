@@ -1,0 +1,127 @@
+<svg width="1920" height="960" viewBox="0 0 1920 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+        
+        .wave2 {
+            position: absolute;
+            animation: moving2 ease-in-out 7s infinite alternate;
+            width: 100%;
+            opacity: 0.5;
+            animation-delay: 1s;
+        }
+        
+        
+        @keyframes moving2{
+            0%{
+            transform: translateY(50px);
+            }
+            
+            50%{
+            transform: translateY(0px);
+            }
+            
+            100%{
+            transform: translateY(50px);
+            }
+        }
+
+        <!-- .wave1 {
+            position: absolute;
+            animation: moving1 ease-in-out 10s infinite alternate;
+            width: 100%;
+        opacity: 0.6;
+
+        }
+        
+        @keyframes moving1{
+            0%{
+            transform: translateY(50px) rotateY(20deg);
+            }
+            
+            50%{
+                transform: translateY(0px) rotateY(0deg);
+            }
+            
+            100%{
+                transform: translateY(50px) rotateY(20deg);
+            }
+        } -->
+
+        .wave3 {
+            position: absolute;
+            animation: moving3 ease-in-out 10s infinite alternate;
+            width: 100%;
+            opacity: 0.3;
+        /* animation-delay: 3s; */
+
+        }
+        
+        @keyframes moving3{
+            0%{
+            transform:translateY(0px) ;
+            }
+            
+            50%{
+                transform: translateY(50px);
+            }
+            
+            100%{
+                transform: translateY(0px);
+            }
+        } 
+
+    </style>
+<g id="final-design 1" clip-path="url(#clip0_2_9)">
+<g class="wave3">
+<mask id="mask0_2_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="610" width="1920" height="350">
+<g id="c6b2c9273e">
+<path id="Vector" d="M0 610.667H1919.99V960H0V610.667Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_2_9)">
+<g id="Group">
+<path id="Vector_2" d="M1919.99 620.313C1919.99 620.313 1418.46 943.089 1023.57 778.438C609.912 605.927 231.698 581.51 -60.0104 641.203V1085.89H1919.99V620.313Z" fill="white" fill-opacity="1"/>
+</g>
+</g>
+</g>
+<g class="wave2">
+<mask id="mask1_2_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="684" width="1920" height="276">
+<g id="bdb5089a30">
+<path id="Vector_3" d="M0 684H1920V960H0V684Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_2_9)">
+<g id="Group_2">
+<g id="Clip path group">
+<mask id="mask2_2_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-60" y="537" width="2052" height="654">
+<g id="d4948dff1d">
+<path id="Vector_4" d="M-59.6041 625.031L1967.53 537.917L1991.82 1103.4L-35.302 1190.51L-59.6041 625.031Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_2_9)">
+<g id="Group_3">
+<g id="Clip path group_2">
+<mask id="mask3_2_9" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-60" y="537" width="2052" height="654">
+<g id="a5a9105e0a">
+<path id="Vector_5" d="M1967.45 537.922L-59.6823 625.036L-35.3802 1190.52L1991.75 1103.4L1967.45 537.922Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask3_2_9)">
+<g id="Group_4">
+<path id="Vector_6" d="M-32.802 1189.6L1990.52 1103.45L1972.97 695.365C1972.97 695.365 1929.39 711.448 1738.17 766.005C1586.85 809.172 1261.63 841.714 900.078 737.833C805.677 710.714 273.073 610.75 -51.7395 782.068L-32.802 1189.6Z" fill="white" fill-opacity="1"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<path class="wave1" d="M-56.6146 1179.3L1919.63 1180.08V781.717C1919.63 781.717 1876.46 795.561 1687.74 840.717C1538.41 876.441 1219.96 894.53 871.828 778.175C780.927 747.795 265.849 628.092 -58 781.415L-56.6146 1179.3Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2_9">
+<rect width="1920" height="960" fill="white"/>
+</clipPath>
+</defs>
+</svg>
