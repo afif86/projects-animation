@@ -1,0 +1,34 @@
+.service-hero {
+    margin-top: 20vh;
+    margin-left: 20vw;
+}
+
+#khaki {
+    position: absolute;
+    animation: left-right1 ease-in-out 2.5s ;
+}
+
+@keyframes left-right1{
+0%{
+  transform: translatex(-100vh);
+}
+
+100%{
+    transform: translatex(0px);
+}
+}
+
+#board {
+    position: absolute;
+    animation: left-right2 ease-in-out 1.5s ;
+}
+
+@keyframes left-right2{
+0%{
+  transform: translatex(-100vh);
+}
+
+100%{
+    transform: translatex(0px);
+}
+}

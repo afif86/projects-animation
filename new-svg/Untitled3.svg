@@ -1,87 +1,361 @@
-<svg width="2684" height="1748" viewBox="0 0 2684 1748" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="2684" height="1748" fill="#F5F5F5"/>
-<g id="Hero 1">
-<path id="Vector" d="M452.216 1480L0.5 1339.25L730.396 1141L1171.5 1256.78L452.216 1480Z" fill="#E3ECFF"/>
-<path id="Vector_2" d="M457.036 1440L125.5 1336.28L546.491 1217L855.5 1317.6L457.036 1440Z" fill="#387CFF"/>
-<path id="Vector_3" d="M0.5 1340L452.5 1480.83V1711L0.5 1570.17V1340Z" fill="#387CFF"/>
-<path id="Vector_4" d="M1171.5 1257L452.5 1480.07V1710L1171.34 1486.69L1171.5 1257Z" fill="#1656D1"/>
-<g id="Group5">
-<path id="Vector_5" d="M1167 481L1340 535.198V765L1167 710.802V481Z" fill="#5ABEB2"/>
-<path id="Vector_6" d="M1513 481L1340 535.198V765L1513 710.802V481Z" fill="#36AB9D"/>
-<path id="Vector_7" d="M1340.1 535L1167 481.015L1340.49 427L1513 481.015L1340.1 535Z" fill="#C8FFF8"/>
-</g>
-<path id="Vector_8" d="M1687.1 1101L1514 1047.01L1687.49 993L1860 1047.01L1687.1 1101Z" fill="#1656D1"/>
-<g id="Group4">
-<path id="Vector_9" d="M1340 196L1514 250.389V481L1340 426.611V196Z" fill="#FFC7EC"/>
-<path id="Vector_10" d="M1687 196L1514 250.389V481L1687 426.611V196Z" fill="#E7A4C8"/>
-<path id="Vector_11" d="M1513.6 251L1340 196.515L1513.99 142L1687 196.515L1513.6 251Z" fill="#FFF4FB"/>
-</g>
-<g id="Group7">
-<path id="Vector_12" d="M1340 1101L1514 1155.39V1386L1340 1331.61V1101Z" fill="#FFC7EC"/>
-<path id="Vector_13" d="M1687 1101L1514 1155.39V1386L1687 1331.61V1101Z" fill="#E7A4C8"/>
-<path id="Vector_14" d="M1513.6 1156L1340 1101.51L1513.99 1047L1687 1101.51L1513.6 1156Z" fill="#FFF4FB"/>
-</g>
-<g id="Group8">
-<path id="Vector_15" d="M1951 1215L2033 1240.76V1350L1951 1324.24V1215Z" fill="#5ABEB2"/>
-<path id="Vector_16" d="M2115 1215L2033 1240.76V1350L2115 1324.24V1215Z" fill="#36AB9D"/>
-<path id="Vector_17" d="M2033.05 1241L1951 1215.51L2033.23 1190L2115 1215.51L2033.05 1241Z" fill="#C8FFF8"/>
-</g>
-<g id="Group6">
-<path id="Vector_18" d="M1513 479L1687 533.389V764L1513 709.611V479Z" fill="#387CFF"/>
-<path id="Vector_19" d="M1860 479L1687 533.389V764L1860 709.611V479Z" fill="#1656D1"/>
-<path id="Vector_20" d="M1686.6 534L1513 479.515L1686.99 425L1860 479.515L1686.6 534Z" fill="#E3ECFF"/>
-</g>
-<g id="Group9">
-<path id="Vector_21" d="M1687 763L1860 817.198V1047L1687 992.802V763Z" fill="#FEFA50"/>
-<path id="Vector_22" d="M2033 763L2206 817.198V1047L2033 992.802V763Z" fill="#FEFA50"/>
-<path id="Vector_23" d="M2033 763L1860 817.198V1047L2033 992.802V763Z" fill="#F7A832"/>
-<path id="Vector_24" d="M2379 763L2206 817.198V1047L2379 992.802V763Z" fill="#F7A832"/>
-<path id="Vector_25" d="M1860.1 817L1687 762.515L1860.49 708L2033 762.515L1860.1 817Z" fill="#FFF9C4"/>
-<path id="Vector_26" d="M2206.1 817L2033 762.515L2206.49 708L2379 762.515L2206.1 817Z" fill="#FFF9C4"/>
-<path id="Vector_27" d="M2380 762.178L2033.01 654L1687 762.178L2033.01 763L2380 762.178Z" fill="#FFF9C4"/>
-</g>
-<path id="yellow-circle" d="M1124 1600C1174.53 1600 1215.5 1558.81 1215.5 1508C1215.5 1457.19 1174.53 1416 1124 1416C1073.47 1416 1032.5 1457.19 1032.5 1508C1032.5 1558.81 1073.47 1600 1124 1600Z" fill="url(#paint0_linear_0_1)"/>
-<path id="circle" d="M2235 390C2266.48 390 2292 364.48 2292 333C2292 301.52 2266.48 276 2235 276C2203.52 276 2178 301.52 2178 333C2178 364.48 2203.52 390 2235 390Z" fill="url(#paint1_linear_0_1)"/>
-<path id="white-circle" d="M986 929C1007.54 929 1025 911.987 1025 891C1025 870.013 1007.54 853 986 853C964.461 853 947 870.013 947 891C947 911.987 964.461 929 986 929Z" fill="url(#paint2_linear_0_1)"/>
-<g id="Group 10">
-<path id="Vector_28" d="M546 940L998 1080.73V1311L546 1170.27V940Z" fill="#FFC7EC"/>
-<path id="Vector_29" d="M1171 1026L998 1080.61V1311L1170.84 1256.15L1171 1026Z" fill="#E7A4C8"/>
-<path id="Vector_30" d="M997.652 1081L546 940.236L719.675 886L1171 1026.45L997.652 1081Z" fill="#FFF4FB"/>
-<path id="Vector_31" d="M989.5 1066C1009.66 1066 1026 1055.7 1026 1043C1026 1030.3 1009.66 1020 989.5 1020C969.342 1020 953 1030.3 953 1043C953 1055.7 969.342 1066 989.5 1066Z" fill="#FFC7EC"/>
-</g>
-<path id="Vector_32" d="M2033 1020V1164" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
-<g id="Group2">
-<path id="Vector_33" d="M16 531L151 573.366V753L16 710.634V531Z" fill="#5ABEB2"/>
-<path id="Vector_34" d="M286 531L151 573.366V753L286 710.634V531Z" fill="#36AB9D"/>
-<path id="Vector_35" d="M151.076 574L16 532.011L151.382 490L286 532.011L151.076 574Z" fill="#C8FFF8"/>
-<path id="Vector_36" d="M286 742V1071" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
-</g>
-<path id="triangle1" d="M802.841 244L572 705L998 555.96L802.841 244Z" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
-<g id="Group1">
-<path id="Vector_37" d="M2266 1422L2380 1457.69V1609L2266 1573.31V1422Z" fill="#387CFF"/>
-<path id="Vector_38" d="M2494 1422L2380 1457.69V1609L2494 1573.31V1422Z" fill="#1656D1"/>
-<path id="Vector_39" d="M2380.06 1458L2266 1422.51L2380.32 1387L2494 1422.51L2380.06 1458Z" fill="#E3ECFF"/>
-</g>
-<path id="Vector_40" d="M1824 1541C1851.61 1541 1874 1518.61 1874 1491C1874 1463.39 1851.61 1441 1824 1441C1796.39 1441 1774 1463.39 1774 1491C1774 1518.61 1796.39 1541 1824 1541Z" stroke="white" stroke-width="2"/>
-<path id="Vector_41" d="M1169 1018V822L1312.5 774" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
-<g id="Group3">
-<path id="Vector_42" d="M286.5 1102L459.5 1156.39V1387L286.5 1332.61V1102Z" fill="#5ABEB2"/>
-<path id="Vector_43" d="M632.5 1102L459.5 1156.39V1387L632.5 1332.61V1102Z" fill="#36AB9D"/>
-<path id="Vector_44" d="M459.598 1157L286.5 1102.51L459.99 1048L632.5 1102.51L459.598 1157Z" fill="#C8FFF8"/>
-</g>
-</g>
-<defs>
-<linearGradient id="paint0_linear_0_1" x1="1124" y1="1416" x2="1216.12" y2="1533.77" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FEFA50"/>
-<stop offset="1" stop-color="#F7A832"/>
-</linearGradient>
-<linearGradient id="paint1_linear_0_1" x1="2235" y1="276" x2="2292" y2="349.269" gradientUnits="userSpaceOnUse">
-<stop stop-color="#387CFF"/>
-<stop offset="1" stop-color="#1656D1"/>
-</linearGradient>
-<linearGradient id="paint2_linear_0_1" x1="986" y1="853" x2="1023.75" y2="902.797" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#D9D9D9"/>
-</linearGradient>
-</defs>
-</svg>
+ <svg width="2684" height="1748" viewBox="0 0 2684 1748" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <style>
+
+#Group1 {
+    position: absolute;
+    animation: down1 ease-in-out 4.3s ;
+}
+
+@keyframes down1{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group2 {
+        position: absolute;
+        animation: down2 ease-in-out 3.5s ;
+}
+
+@keyframes down2{
+    0%{
+      transform: translateY(-100vh);
+    }
+    
+    100%{
+        transform: translateY(0px);
+    }
+  }
+  
+
+#Group3 {
+    position: absolute;
+    animation: down3 ease-in-out 1.9s ;
+}
+
+@keyframes down3{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group4 {
+    position: absolute;
+    animation: down4 ease-in-out 3.2s ;
+}
+
+@keyframes down4{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group5 {
+    position: absolute;
+    animation: down5 ease-in-out 2.4s ;
+}
+
+@keyframes down5{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group6 {
+    position: absolute;
+    animation: down6 ease-in-out 4.3s ;
+}
+
+@keyframes down6{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group7 {
+    position: absolute;
+    animation: down7 ease-in-out 3.4s ;
+}
+
+@keyframes down7{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group8 {
+    position: absolute;
+    animation: down8 ease-in-out 3.7s ;
+}
+
+@keyframes down8{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group9 {
+    position: absolute;
+    animation: down9 ease-in-out 3.1s ;
+}
+
+@keyframes down9{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Group10 {
+    position: absolute;
+    animation: down10 ease-in-out 3.7s ;
+}
+
+@keyframes down10{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#circle {
+    position: absolute;
+    animation: down11 ease-in-out 5s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#yellow-circle{
+    position: absolute;
+    animation: down11 ease-in-out 2.4s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#white-circle{
+    position: absolute;
+    animation: down11 ease-in-out 3.8s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#triangle1{
+    position: absolute;
+    animation: down11 ease-in-out 4s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Vector_32{
+    position: absolute;
+    animation: down11 ease-in-out 2.4s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Vector_40{
+    position: absolute;
+    animation: down11 ease-in-out 3.7s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Vector_8{
+    position: absolute;
+    animation: down11 ease-in-out 1.5s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+#Vector_41{
+    position: absolute;
+    animation: down11 ease-in-out 3s ;
+}
+
+@keyframes down11{
+0%{
+  transform: translateY(-100vh);
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+
+        </style>
+        <rect width="2684" height="1748" fill="#ffffff00"/>
+        <g id="Hero 1">
+        <path id="Vector" d="M452.216 1480L0.5 1339.25L730.396 1141L1171.5 1256.78L452.216 1480Z" fill="#E3ECFF"/>
+        <path id="Vector_2" d="M457.036 1440L125.5 1336.28L546.491 1217L855.5 1317.6L457.036 1440Z" fill="#387CFF"/>
+        <path id="Vector_3" d="M0.5 1340L452.5 1480.83V1711L0.5 1570.17V1340Z" fill="#387CFF"/>
+        <path id="Vector_4" d="M1171.5 1257L452.5 1480.07V1710L1171.34 1486.69L1171.5 1257Z" fill="#1656D1"/>
+        <g id="Group5">
+        <path id="Vector_5" d="M1167 481L1340 535.198V765L1167 710.802V481Z" fill="#5ABEB2"/>
+        <path id="Vector_6" d="M1513 481L1340 535.198V765L1513 710.802V481Z" fill="#36AB9D"/>
+        <path id="Vector_7" d="M1340.1 535L1167 481.015L1340.49 427L1513 481.015L1340.1 535Z" fill="#C8FFF8"/>
+        </g>
+        <path id="Vector_8" d="M1687.1 1101L1514 1047.01L1687.49 993L1860 1047.01L1687.1 1101Z" fill="#1656D1"/>
+        <g id="Group4">
+        <path id="Vector_9" d="M1340 196L1514 250.389V481L1340 426.611V196Z" fill="#FFC7EC"/>
+        <path id="Vector_10" d="M1687 196L1514 250.389V481L1687 426.611V196Z" fill="#E7A4C8"/>
+        <path id="Vector_11" d="M1513.6 251L1340 196.515L1513.99 142L1687 196.515L1513.6 251Z" fill="#FFF4FB"/>
+        </g>
+        <g id="Group7">
+        <path id="Vector_12" d="M1340 1101L1514 1155.39V1386L1340 1331.61V1101Z" fill="#FFC7EC"/>
+        <path id="Vector_13" d="M1687 1101L1514 1155.39V1386L1687 1331.61V1101Z" fill="#E7A4C8"/>
+        <path id="Vector_14" d="M1513.6 1156L1340 1101.51L1513.99 1047L1687 1101.51L1513.6 1156Z" fill="#FFF4FB"/>
+        </g>
+        <g id="Group8">
+        <path id="Vector_15" d="M1951 1215L2033 1240.76V1350L1951 1324.24V1215Z" fill="#5ABEB2"/>
+        <path id="Vector_16" d="M2115 1215L2033 1240.76V1350L2115 1324.24V1215Z" fill="#36AB9D"/>
+        <path id="Vector_17" d="M2033.05 1241L1951 1215.51L2033.23 1190L2115 1215.51L2033.05 1241Z" fill="#C8FFF8"/>
+        </g>
+        <g id="Group6">
+        <path id="Vector_18" d="M1513 479L1687 533.389V764L1513 709.611V479Z" fill="#387CFF"/>
+        <path id="Vector_19" d="M1860 479L1687 533.389V764L1860 709.611V479Z" fill="#1656D1"/>
+        <path id="Vector_20" d="M1686.6 534L1513 479.515L1686.99 425L1860 479.515L1686.6 534Z" fill="#E3ECFF"/>
+        </g>
+        <g id="Group9">
+        <path id="Vector_21" d="M1687 763L1860 817.198V1047L1687 992.802V763Z" fill="#FEFA50"/>
+        <path id="Vector_22" d="M2033 763L2206 817.198V1047L2033 992.802V763Z" fill="#FEFA50"/>
+        <path id="Vector_23" d="M2033 763L1860 817.198V1047L2033 992.802V763Z" fill="#F7A832"/>
+        <path id="Vector_24" d="M2379 763L2206 817.198V1047L2379 992.802V763Z" fill="#F7A832"/>
+        <path id="Vector_25" d="M1860.1 817L1687 762.515L1860.49 708L2033 762.515L1860.1 817Z" fill="#FFF9C4"/>
+        <path id="Vector_26" d="M2206.1 817L2033 762.515L2206.49 708L2379 762.515L2206.1 817Z" fill="#FFF9C4"/>
+        <path id="Vector_27" d="M2380 762.178L2033.01 654L1687 762.178L2033.01 763L2380 762.178Z" fill="#FFF9C4"/>
+        </g>
+        <path id="yellow-circle" d="M1124 1600C1174.53 1600 1215.5 1558.81 1215.5 1508C1215.5 1457.19 1174.53 1416 1124 1416C1073.47 1416 1032.5 1457.19 1032.5 1508C1032.5 1558.81 1073.47 1600 1124 1600Z" fill="url(#paint0_linear_0_1)"/>
+        <path id="circle" d="M2235 390C2266.48 390 2292 364.48 2292 333C2292 301.52 2266.48 276 2235 276C2203.52 276 2178 301.52 2178 333C2178 364.48 2203.52 390 2235 390Z" fill="url(#paint1_linear_0_1)"/>
+        <path id="white-circle" d="M986 929C1007.54 929 1025 911.987 1025 891C1025 870.013 1007.54 853 986 853C964.461 853 947 870.013 947 891C947 911.987 964.461 929 986 929Z" fill="url(#paint2_linear_0_1)"/>
+        <g id="Group10">
+        <path id="Vector_28" d="M546 940L998 1080.73V1311L546 1170.27V940Z" fill="#FFC7EC"/>
+        <path id="Vector_29" d="M1171 1026L998 1080.61V1311L1170.84 1256.15L1171 1026Z" fill="#E7A4C8"/>
+        <path id="Vector_30" d="M997.652 1081L546 940.236L719.675 886L1171 1026.45L997.652 1081Z" fill="#FFF4FB"/>
+        <path id="Vector_31" d="M989.5 1066C1009.66 1066 1026 1055.7 1026 1043C1026 1030.3 1009.66 1020 989.5 1020C969.342 1020 953 1030.3 953 1043C953 1055.7 969.342 1066 989.5 1066Z" fill="#FFC7EC"/>
+        </g>
+        <path id="Vector_32" d="M2033 1020V1164" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+        <g id="Group2">
+        <path id="Vector_33" d="M16 531L151 573.366V753L16 710.634V531Z" fill="#5ABEB2"/>
+        <path id="Vector_34" d="M286 531L151 573.366V753L286 710.634V531Z" fill="#36AB9D"/>
+        <path id="Vector_35" d="M151.076 574L16 532.011L151.382 490L286 532.011L151.076 574Z" fill="#C8FFF8"/>
+        <path id="Vector_36" d="M286 742V1071" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+        </g>
+        <path id="triangle1" d="M802.841 244L572 705L998 555.96L802.841 244Z" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+        <g id="Group1">
+        <path id="Vector_37" d="M2266 1422L2380 1457.69V1609L2266 1573.31V1422Z" fill="#387CFF"/>
+        <path id="Vector_38" d="M2494 1422L2380 1457.69V1609L2494 1573.31V1422Z" fill="#1656D1"/>
+        <path id="Vector_39" d="M2380.06 1458L2266 1422.51L2380.32 1387L2494 1422.51L2380.06 1458Z" fill="#E3ECFF"/>
+        </g>
+        <path id="Vector_40" d="M1824 1541C1851.61 1541 1874 1518.61 1874 1491C1874 1463.39 1851.61 1441 1824 1441C1796.39 1441 1774 1463.39 1774 1491C1774 1518.61 1796.39 1541 1824 1541Z" stroke="white" stroke-width="2"/>
+        <path id="Vector_41" d="M1169 1018V822L1312.5 774" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+        <g id="Group3">
+        <path id="Vector_42" d="M286.5 1102L459.5 1156.39V1387L286.5 1332.61V1102Z" fill="#5ABEB2"/>
+        <path id="Vector_43" d="M632.5 1102L459.5 1156.39V1387L632.5 1332.61V1102Z" fill="#36AB9D"/>
+        <path id="Vector_44" d="M459.598 1157L286.5 1102.51L459.99 1048L632.5 1102.51L459.598 1157Z" fill="#C8FFF8"/>
+        </g>
+        </g>
+        <defs>
+        <linearGradient id="paint0_linear_0_1" x1="1124" y1="1416" x2="1216.12" y2="1533.77" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FEFA50"/>
+        <stop offset="1" stop-color="#F7A832"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_0_1" x1="2235" y1="276" x2="2292" y2="349.269" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#387CFF"/>
+        <stop offset="1" stop-color="#1656D1"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear_0_1" x1="986" y1="853" x2="1023.75" y2="902.797" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white"/>
+        <stop offset="1" stop-color="#D9D9D9"/>
+        </linearGradient>
+        </defs>
+        </svg>
