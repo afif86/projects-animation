@@ -1,9 +1,10 @@
- <svg width="2684" height="1748" viewBox="0 0 2684 1748" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <svg width="1800" height="1208" viewBox="0 0 2684 1748" fill="none" xmlns="http://www.w3.org/2000/svg">
         <style>
 
 #Group1 {
     position: absolute;
-    animation: down1 ease-in-out 4.3s ;
+    animation: down1 ease-in-out 6.3s ;
+    
 }
 
 @keyframes down1{
@@ -18,7 +19,8 @@
 
 #Group2 {
         position: absolute;
-        animation: down2 ease-in-out 3.5s ;
+        animation: down2 ease-in-out 5.5s ;
+         
 }
 
 @keyframes down2{
@@ -34,7 +36,8 @@
 
 #Group3 {
     position: absolute;
-    animation: down3 ease-in-out 1.9s ;
+    animation: down3 ease-in-out 3.9s ;
+    
 }
 
 @keyframes down3{
@@ -49,7 +52,8 @@
 
 #Group4 {
     position: absolute;
-    animation: down4 ease-in-out 3.2s ;
+    animation: down4 ease-in-out 5.2s ;
+     
 }
 
 @keyframes down4{
@@ -64,7 +68,8 @@
 
 #Group5 {
     position: absolute;
-    animation: down5 ease-in-out 2.4s ;
+    animation: down5 ease-in-out 4.4s ;
+     
 }
 
 @keyframes down5{
@@ -79,7 +84,8 @@
 
 #Group6 {
     position: absolute;
-    animation: down6 ease-in-out 4.3s ;
+    animation: down6 ease-in-out 6.3s ;
+     
 }
 
 @keyframes down6{
@@ -94,7 +100,8 @@
 
 #Group7 {
     position: absolute;
-    animation: down7 ease-in-out 3.4s ;
+    animation: down7 ease-in-out 5.4s ;
+     
 }
 
 @keyframes down7{
@@ -109,7 +116,8 @@
 
 #Group8 {
     position: absolute;
-    animation: down8 ease-in-out 3.7s ;
+    animation: down8 ease-in-out 5.7s ;
+     
 }
 
 @keyframes down8{
@@ -124,7 +132,8 @@
 
 #Group9 {
     position: absolute;
-    animation: down9 ease-in-out 3.1s ;
+    animation: down9 ease-in-out 5.1s ;
+     
 }
 
 @keyframes down9{
@@ -139,7 +148,8 @@
 
 #Group10 {
     position: absolute;
-    animation: down10 ease-in-out 3.7s ;
+    animation: down10 ease-in-out 5.7s ;
+     
 }
 
 @keyframes down10{
@@ -154,7 +164,8 @@
 
 #circle {
     position: absolute;
-    animation: down11 ease-in-out 5s ;
+    animation: down11 ease-in-out 7s ;
+     
 }
 
 @keyframes down11{
@@ -169,7 +180,8 @@
 
 #yellow-circle{
     position: absolute;
-    animation: down11 ease-in-out 2.4s ;
+    animation: down11 ease-in-out 4.4s ;
+    
 }
 
 @keyframes down11{
@@ -184,7 +196,8 @@
 
 #white-circle{
     position: absolute;
-    animation: down11 ease-in-out 3.8s ;
+    animation: down11 ease-in-out 5.8s ;
+     
 }
 
 @keyframes down11{
@@ -199,7 +212,8 @@
 
 #triangle1{
     position: absolute;
-    animation: down11 ease-in-out 4s ;
+    animation: down11 ease-in-out 6s ;
+     
 }
 
 @keyframes down11{
@@ -214,7 +228,8 @@
 
 #Vector_32{
     position: absolute;
-    animation: down11 ease-in-out 2.4s ;
+    animation: down11 ease-in-out 4.4s ;
+     
 }
 
 @keyframes down11{
@@ -229,7 +244,8 @@
 
 #Vector_40{
     position: absolute;
-    animation: down11 ease-in-out 3.7s ;
+    animation: down11 ease-in-out 5.7s ;
+     
 }
 
 @keyframes down11{
@@ -244,7 +260,8 @@
 
 #Vector_8{
     position: absolute;
-    animation: down11 ease-in-out 1.5s ;
+    animation: down11 ease-in-out 3.5s ;
+    
 }
 
 @keyframes down11{
@@ -259,7 +276,8 @@
 
 #Vector_41{
     position: absolute;
-    animation: down11 ease-in-out 3s ;
+    animation: down11 ease-in-out 5s ;
+   
 }
 
 @keyframes down11{
