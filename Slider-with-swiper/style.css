@@ -68,7 +68,7 @@
 }
 
 .slider-container {
-  padding: 10% 30% 10%;
+  padding: 10% 25% 10%;
   text-align: center;
   
 }
@@ -114,6 +114,7 @@
   opacity: 1;
   position: relative;
   animation: scale-change 2s forwards;
+  text-align: center;
 }
 
 /* animation for title, scaling it from bigger to normal size */
@@ -131,171 +132,6 @@
     opacity: 1;
   }
 }
-
-.typewriter {
-  overflow: hidden; 
-  margin: 50px auto; 
-  animation: letter-glow 5s 0s ease both;
-  font-size: 18px;
-  transition: ease-in opacity 200ms;
-}
-
-.typewriter span {
-  font-size: 18px;
-  opacity: 0;
-}
-
-/* to have growing animation for characters one by one we need to animate them one by one */
-span:nth-child(1) {
-  animation: letter-glow 0.05s forwards 0s;
-  animation-delay: 2.1s;
-}
-
-span:nth-child(2) {
-  animation: letter-glow .1s forwards 0.5s;
-  animation-delay: 2.15s;
-}
-
-span:nth-child(3) {
-  animation: letter-glow .15s forwards 1s;
-  animation-delay: 2.2s;
-}
-
-span:nth-child(4) {
-  animation: letter-glow .2s forwards 1.5s;
-  animation-delay: 2.25s;
-}
-span:nth-child(5) {
-  animation: letter-glow .25s forwards 2s;
-  animation-delay: 2.30s;
-}
-span:nth-child(6) {
-  animation: letter-glow .30s forwards 2.5s;
-  animation-delay: 2.35s;
-}
-span:nth-child(7) {
-  animation: letter-glow .35s forwards 3s;
-  animation-delay: 2.40s;
-}
-span:nth-child(8) {
-  animation: letter-glow .40s forwards 3.5s;
-  animation-delay: 2.45s;
-}
-span:nth-child(9) {
-  animation: letter-glow .45s forwards 4s;
-  animation-delay: 2.50s;
-}
-span:nth-child(10) {
-  animation: letter-glow .50s forwards 4.5s;
-  animation-delay: 2.55s;
-}
-span:nth-child(11) {
-  animation: letter-glow .55s forwards 5s;
-  animation-delay: 2.60s;
-}
-span:nth-child(12) {
-  animation: letter-glow .60s forwards 1.5s;
-  animation-delay: 2.65s;
-}
-span:nth-child(13) {
-  animation: letter-glow .65s forwards 5.5s;
-  animation-delay: 2.70s;
-}
-span:nth-child(14) {
-  animation: letter-glow .7s forwards 6s;
-  animation-delay: 2.75s;
-}
-span:nth-child(15) {
-  animation: letter-glow .75s forwards 6.5s;
-  animation-delay: 2.80s;
-}
-span:nth-child(16) {
-  animation: letter-glow 0.80s forwards 7s;
-  animation-delay: 2.9s;
-}
-
-span:nth-child(17) {
-  animation: letter-glow .85s forwards 7.5s;
-  animation-delay: 3s;
-}
-
-span:nth-child(18) {
-  animation: letter-glow .9s forwards 8s;
-  animation-delay: 3.05s;
-}
-
-span:nth-child(19) {
-  animation: letter-glow .95s forwards 8.5s;
-  animation-delay: 3.10s;
-}
-span:nth-child(20) {
-  animation: letter-glow 1s forwards 9s;
-  animation-delay: 3.15s;
-}
-span:nth-child(21) {
-  animation: letter-glow 1.05s forwards 9.5s;
-  animation-delay: 3.20s;
-}
-span:nth-child(22) {
-  animation: letter-glow 1.1s forwards 10s;
-  animation-delay: 3.25s;
-}
-span:nth-child(23) {
-  animation: letter-glow 1.15s forwards 10.5s;
-  animation-delay: 3.30s;
-}
-span:nth-child(24) {
-  animation: letter-glow 1.20s forwards 11s;
-  animation-delay: 3.35s;
-}
-span:nth-child(25) {
-  animation: letter-glow 1.25s forwards 11.5s;
-  animation-delay: 3.40s;
-}
-span:nth-child(26) {
-  animation: letter-glow 1.30s forwards 12s;
-  animation-delay: 3.45s;
-}
-span:nth-child(27) {
-  animation: letter-glow 1.35s forwards 12.5s;
-  animation-delay: 3.50s;
-}
-span:nth-child(28) {
-  animation: letter-glow 1.40s forwards 13s;
-  animation-delay: 3.55s;
-}
-span:nth-child(29) {
-  animation: letter-glow 1.45s forwards 13.5s;
-  animation-delay: 3.40s;
-}
-span:nth-child(30) {
-  animation: letter-glow 1.50s forwards 14s;
-  animation-delay: 3.45s;
-}
-span:nth-child(31) {
-  animation: letter-glow 1.55s forwards 14.5s;
-  animation-delay: 3.50s;
-}
-
-/* p text animation, letter-glowing */
-@keyframes letter-glow {
-  0% {
-    opacity: 0;
-    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
-  }
-  66% {
-    opacity: 1;
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
-  }
-  77% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.8;
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
-  }
-}
-
 
 .slider-button {
   font-weight: 400;
@@ -335,3 +171,16 @@ span:nth-child(31) {
     top: 20;
   }
 }
+
+/* typing */
+#str {
+  width: 800px;
+  padding: 20px;
+  height: auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 200px auto;
+  color: #fff;
+  font-weight: bold;
+}
+
