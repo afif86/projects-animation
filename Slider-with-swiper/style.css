@@ -176,7 +176,6 @@
 #str {
   width: 800px;
   padding: 20px;
-  height: auto;
   font-family: sans-serif;
   font-size: 20px;
   margin: 200px auto;
@@ -184,3 +183,6 @@
   font-weight: bold;
 }
 
+#typing {
+  height: 180px ;
+}

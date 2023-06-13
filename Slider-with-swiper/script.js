@@ -28,6 +28,7 @@ const swiper = new Swiper('.swiper-container', {
     invert: false,
     releaseOnEdges: true,
     // to release the mouse and Continue when it showed all the sliders .
+
   },
 
   keyboard: {
@@ -132,15 +133,30 @@ const NextToPagination = (e) => {
 
 
 // for typing part
-var string = "Hello I'm Laith Haleem Form Ghammas Love Developing Websites";
-var str = string.split("");
-var el = document.getElementById('str');
-function animate() {
-str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
-var running = setTimeout(animate, 90);
-};
+  
+function typingAnimation() {
+  const spanElement = document.querySelector('span#str');
+  var string = spanElement.innerText;
+  const h = document.getElementById('typing').clientHeight; 
+   
 
-setTimeout(animate, 2000)
+  spanElement.innerText = ""
+  document.getElementById("typing").style.height = h + 'px';
+  console.log(document.getElementById("typing").style.height)
+  var str = string.split("");
+
+
+  function animate() {
+    str.length > 0 ? spanElement.innerHTML += str.shift() : clearTimeout(running); 
+    var running = setTimeout(animate, 50);
+  };
+
+  setTimeout(animate, 2000)
+}
+setTimeout(typingAnimation, 10);
+
+
+// ------------------------------------
 
 
 
