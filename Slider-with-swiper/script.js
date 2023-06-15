@@ -17,7 +17,13 @@ const swiper = new Swiper('.swiper-container', {
   // effect: 'Creative',
   // effect: 'cube',
   // effect: 'flip',
-
+  
+  observer: true, 
+  observeParents: true,
+  followFinger: false,
+  touchReleaseOnEdges: true,
+  longSwipes: false,
+  parallax: true,
 
   scrollbar: {
     el: '.swiper-scrollbar',
@@ -26,9 +32,8 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: {
     invert: false,
-    releaseOnEdges: true,
-    // to release the mouse and Continue when it showed all the sliders .
-
+    releaseOnEdges: false,
+    // to release the mouse and Continue when it showed all the sliders . 
   },
 
   keyboard: {
@@ -44,6 +49,20 @@ const swiper = new Swiper('.swiper-container', {
     bulletClass: 'swiper-pagination-bullet',
     clickable: true,
   },
+
+  on:{
+       slideChange: (swiper) => {
+           const {offsetTop} = swiper.el;
+           window.scrollY !== offsetTop && window.scrollTo({
+               top: offsetTop,
+               behavior: 'smooth',
+           });
+       },
+       slideChangeTransitionEnd: (swiper) => {
+           const activeIndex = swiper.activeIndex;
+           swiper.params.mousewheel.releaseOnEdges = activeIndex === 0 ;
+       }
+       }
 
 });
 
@@ -138,11 +157,12 @@ function typingAnimation() {
   const spanElement = document.querySelector('span#str');
   var string = spanElement.innerText;
   const h = document.getElementById('typing').clientHeight; 
+  document.getElementById('typing').style.visibility = 'visible'; 
    
 
   spanElement.innerText = ""
   document.getElementById("typing").style.height = h + 'px';
-  console.log(document.getElementById("typing").style.height)
+  // console.log(document.getElementById("typing").style.height)
   var str = string.split("");
 
 
@@ -154,11 +174,6 @@ function typingAnimation() {
   setTimeout(animate, 2000)
 }
 setTimeout(typingAnimation, 10);
-
-
-// ------------------------------------
-
-
 
 
 
