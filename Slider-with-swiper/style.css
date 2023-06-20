@@ -187,17 +187,8 @@
 #typing {
   height: 180px ;
   animation: moving3 ease-in-out 2s;
+  opacity: 0;
+  visibility: invisible;
 }
 
 
-@keyframes moving3{
-  0%{
-   visibility: hidden;
-   opacity: 0;
-  }
-
-  100%{
-    visibility: visible;
-    opacity: 1;
-  }
-} 

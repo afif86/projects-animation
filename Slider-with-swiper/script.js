@@ -60,7 +60,7 @@ const swiper = new Swiper('.swiper-container', {
        },
        slideChangeTransitionEnd: (swiper) => {
            const activeIndex = swiper.activeIndex;
-           swiper.params.mousewheel.releaseOnEdges = activeIndex === 0 ;
+           swiper.params.mousewheel.releaseOnEdges = activeIndex === 0  || activeIndex === swiper.slides.length-1 ;
        }
        }
 
@@ -78,7 +78,7 @@ swiper.on("reachEnd", () => {
 
 swiper.slides.forEach((slide,i) => {
   if (slide.dataset.link) {
-    checkObject.indexOfSlidesWithLink.push(i);
+    checkObject.indexOfSlidesWithLink.push(i); 
   }
   
 });
@@ -158,7 +158,7 @@ function typingAnimation() {
   var string = spanElement.innerText;
   const h = document.getElementById('typing').clientHeight; 
   document.getElementById('typing').style.visibility = 'visible'; 
-   
+  document.getElementById('typing').style.opacity = '1';  
 
   spanElement.innerText = ""
   document.getElementById("typing").style.height = h + 'px';

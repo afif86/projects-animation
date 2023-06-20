@@ -10,11 +10,13 @@
 
 @keyframes left-right1{
 0%{
-  transform: translatex(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
 100%{
-    transform: translatex(0px);
+    transform: translateY(0px);
+    opacity: 1;
 }
 }
 
@@ -25,10 +27,12 @@
 
 @keyframes left-right2{
 0%{
-  transform: translatex(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
 100%{
-    transform: translatex(0px);
+    transform: translateY(0px);
+    opacity: 1;
 }
 }

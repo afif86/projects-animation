@@ -1,112 +1,161 @@
-svg{
-    margin-top: 30vh;
-    margin-left: 20VW;
+body {
+  background-color: black;
 }
 
 #Group1 {
     position: absolute;
-    animation: down1 ease-in-out 4.3s ;
+    animation: down1 ease-in-out 5.3s;
 }
 
 @keyframes down1{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
+}
+
+50%{
+ opacity: 0;
 }
 
 100%{
     transform: translateY(0px);
+    opacity: 1;
+
 }
 }
 
 #Group2 {
         position: absolute;
-        animation: down2 ease-in-out 3.5s ;
+        animation: down2 ease-in-out 4.5s;
 }
 
 @keyframes down2{
     0%{
-      transform: translateY(-100vh);
+      transform: translateY(-120%);
+      opacity: 0;
     }
     
-    100%{
-        transform: translateY(0px);
-    }
+    50%{
+      opacity: 0;
+     }
+     
+     100%{
+         transform: translateY(0px);
+         opacity: 1;
+     
+     }
   }
   
 
 #Group3 {
     position: absolute;
-    animation: down3 ease-in-out 1.9s ;
+    animation: down3 ease-in-out 2.9s ;
 }
 
 @keyframes down3{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group4 {
     position: absolute;
-    animation: down4 ease-in-out 3.2s ;
+    animation: down4 ease-in-out 4s ;
+    animation-iteration-count: 2;
 }
 
 @keyframes down4{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group5 {
     position: absolute;
-    animation: down5 ease-in-out 2.4s ;
+    animation: down5 ease-in-out 3.4s ;
 }
 
 @keyframes down5{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group6 {
     position: absolute;
-    animation: down6 ease-in-out 4.3s ;
+    animation: down6 ease-in-out 5.3s ;
 }
 
 @keyframes down6{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group7 {
     position: absolute;
-    animation: down7 ease-in-out 3.4s ;
+    animation: down7 ease-in-out 4.4s ;
 }
 
 @keyframes down7{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group8 {
@@ -116,42 +165,63 @@ svg{
 
 @keyframes down8{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group9 {
     position: absolute;
-    animation: down9 ease-in-out 3.1s ;
+    animation: down9 ease-in-out 4.1s ;
 }
 
 @keyframes down9{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #Group10 {
     position: absolute;
-    animation: down10 ease-in-out 3.7s ;
+    animation: down10 ease-in-out 4.7s ;
 }
 
 @keyframes down10{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #circle {
@@ -161,115 +231,111 @@ svg{
 
 @keyframes down11{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #yellow-circle{
     position: absolute;
-    animation: down11 ease-in-out 2.4s ;
+    animation: down11 ease-in-out 3.4s ;
 }
 
 @keyframes down11{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+50%{
+  opacity: 0;
+ }
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #white-circle{
     position: absolute;
-    animation: down11 ease-in-out 3.8s ;
+    animation: down11 ease-in-out 5s ;
 }
 
 @keyframes down11{
 0%{
-  transform: translateY(-100vh);
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-100%{
-    transform: translateY(0px);
-}
+ 
+ 100%{
+     transform: translateY(0px);
+     opacity: 1;
+ 
+ }
 }
 
 #triangle1{
     position: absolute;
-    animation: down11 ease-in-out 4s ;
+    animation: fade-out ease-in-out 6s ;
 }
 
-@keyframes down11{
-0%{
-  transform: translateY(-100vh);
-}
-
-100%{
-    transform: translateY(0px);
-}
-}
 
 #Vector_32{
     position: absolute;
-    animation: down11 ease-in-out 2.4s ;
+    animation: fade-out ease-in-out 6s ;
 }
 
-@keyframes down11{
-0%{
-  transform: translateY(-100vh);
-}
-
-100%{
-    transform: translateY(0px);
-}
-}
 
 #Vector_40{
     position: absolute;
-    animation: down11 ease-in-out 3.7s ;
-}
-
-@keyframes down11{
-0%{
-  transform: translateY(-100vh);
-}
-
-100%{
-    transform: translateY(0px);
-}
+    animation: fade-out ease-in-out 6s ;
 }
 
 #Vector_8{
     position: absolute;
-    animation: down11 ease-in-out 1.5s ;
+    animation: fade-out ease-in-out 6s ;
 }
 
-@keyframes down11{
-0%{
-  transform: translateY(-100vh);
-}
-
-100%{
-    transform: translateY(0px);
-}
-}
 
 #Vector_41{
     position: absolute;
-    animation: down11 ease-in-out 3s ;
+    animation: fade-out ease-in-out 6.3s ;
 }
 
-@keyframes down11{
-0%{
-  transform: translateY(-100vh);
+
+#Vector_36 {
+  position: absolute;
+  animation: fade-out ease-in-out 6.3s ;
 }
 
-100%{
-    transform: translateY(0px);
-}
+@keyframes fade-out {
+  0%{
+    opacity: 0;
+  }
+  
+  50%{
+    opacity: 0;
+   }
+
+   75%{
+    opacity: 0;
+   }
+   
+   100%{
+       opacity: 1;
+   
+   }
 }
