@@ -1,0 +1,64 @@
+body{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#react {
+    animation: move-in 2s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;
+    /* animation-delay: 1s; */
+}
+
+#js {
+    animation: move-in 1.5s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+
+#vu {
+    animation: move-in 2.5s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box; 
+}
+
+#node {
+    animation: move-in 2.3s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;    
+}
+
+#figma {
+    animation: move-in 2s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;      
+}
+
+#angular {
+    animation: move-in 1.8s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;      
+}
+
+#css {
+    animation: move-in 1.5s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;      
+}
+
+#html {
+    animation: move-in 2.4s ease-in-out;
+    transform-origin: left;
+    transform-box: fill-box;      
+}
+   
+@keyframes move-in {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+} 

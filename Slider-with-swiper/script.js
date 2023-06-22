@@ -57,15 +57,20 @@ const swiper = new Swiper('.swiper-container', {
                top: offsetTop,
                behavior: 'smooth',
            });
-       },
+    },
+    afterInit: (swiper) => {
+      if (swiper.slides.length === 1) {
+        console.log("afterinit")
+          swiper.params.mousewheel.releaseOnEdges = true
+      }
+    },
        slideChangeTransitionEnd: (swiper) => {
-           const activeIndex = swiper.activeIndex;
+         const activeIndex = swiper.activeIndex;
            swiper.params.mousewheel.releaseOnEdges = activeIndex === 0  || activeIndex === swiper.slides.length-1 ;
        }
        }
 
 });
-
 
 const checkObject = {
   indexOfSlidesWithLink: [],
