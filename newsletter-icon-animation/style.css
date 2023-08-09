@@ -1,0 +1,62 @@
+.pre-header-subscribe {
+    background: #0a254b;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.5s;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.newsletter-icon {
+    width: 70px;
+    height: auto;
+}
+
+.pre-header-subscribe-figure .lines {
+    width: 1.6rem;
+    height: 0.0625rem;
+    background-color: white;
+    position: absolute;
+    margin: 0 auto;
+    top: 1.2rem;
+    left: 0;
+    right: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.lines small {
+color: white;
+font-size: 12.7px;
+}
+
+.pre-header-subscribe:hover .pre-header-subscribe-figure .lines {
+    animation: myMove ease 1s forwards;
+
+}
+
+@keyframes myMove {
+    0%   {opacity: 0; transform: translateX(-20px); }
+    100%  {opacity: 1; transform: translateX(0px); }
+}
+
+
+.pre-header-subscribe-figure .lines:before {
+    top: 1.5rem;
+}
+
+.pre-header-subscribe-figure .lines:before, .pre-header-subscribe-figure .lines:after {
+    content: '';
+    width: 1.6rem;
+    height: 0.0625rem;
+    background-color: white;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transition: 0.5s;
+}
